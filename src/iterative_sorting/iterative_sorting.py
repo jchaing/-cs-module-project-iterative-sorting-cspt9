@@ -1,4 +1,5 @@
 # TO-DO: Complete the selection_sort() function below
+# O(n^2) - Worst sorting
 def selection_sort(arr):
     # loop through n-1 elements
     for i in range(0, len(arr) - 1):
@@ -93,8 +94,8 @@ def counting_sort(arr, maximum=None):
     return arr
 
 
-nums = [0, 1, 2, 2, 20, 5, 3, 5, 7, 8, 20]
-sort = counting_sort(nums, 20)
-print(sort)
+# nums = [0, 1, 2, 2, 20, 5, 3, 5, 7, 8, 20]
+# sort = counting_sort(nums, 20)
+# print(sort)
 
 
